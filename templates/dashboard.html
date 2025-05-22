@@ -1,0 +1,27 @@
+<!-- templates/dashboard.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Caleb Willingham – Software Engineer</title>
+  <link rel="stylesheet" href="{% static 'css/dashboard.css' %}">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="content">
+      <h1 class="name">Caleb Willingham</h1>
+      <h2 class="title">Software Engineer</h2>
+      <p class="tagline"><span id="typed"></span><span class="cursor">|</span></p>
+      <div class="buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+  </section>
+  <script src="{% static 'js/dashboard.js' %}"></script>
+</body>
+</html>
