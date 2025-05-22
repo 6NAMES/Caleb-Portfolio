@@ -14,7 +14,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: url('../images/terminal-bg.svg') center/cover no-repeat;
   position: relative;
   text-align: center;
   padding: 2rem;
