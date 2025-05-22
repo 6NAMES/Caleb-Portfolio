@@ -8,31 +8,34 @@ body {
 }
 
 .navbar {
-  background-color: #0d1117 !important;
-  color: #c9d1d9;
+  font-family: 'Fira Code', monospace;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.navbar .nav-link {
-  color: #c9d1d9;
+.nav-link {
+  font-size: 1rem;
+  color: #333 !important;
+  transition: color 0.2s ease;
 }
 
-.navbar .nav-link:hover {
-  color: #58a6ff;
+.nav-link:hover {
+  color: #007bff !important;
+  text-decoration: underline;
 }
 
-.btn {
-  background-color: #238636;
-  color: white;
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.25rem;
 }
 
-.btn-outline {
-  border: 2px solid #58a6ff;
-  color: #58a6ff;
+.btn-dark {
+  font-weight: 500;
+  font-size: 0.9rem;
 }
 
-.btn-outline:hover {
-  background-color: #58a6ff;
-  color: #0d1117;
+.navbar .nav-link.active {
+  font-weight: bold;
+  color: #000 !important;
+  text-decoration: underline;
 }
-
-
